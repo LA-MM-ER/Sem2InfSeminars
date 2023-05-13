@@ -20,9 +20,10 @@ int main()
 
     int index = 2; //макс разряд
     array = ReadFile();
-    int a = 5;
-    int b = 15;
-    
+    int a;
+    int b;
+    puts("Enter a,b: ");
+    scanf("%d%d",&a,&b);
     printf("\nbefore swap a - %d b - %d\n",a,b);
     swap(a,b,int);
     printf("after swap a - %d b - %d\n",a,b);
